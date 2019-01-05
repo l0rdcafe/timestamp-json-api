@@ -1,0 +1,17 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Ismail Arafa <me@l0rdcafe.com> (http://www.l0rdcafe.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
