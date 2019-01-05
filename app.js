@@ -7,4 +7,4 @@ const app = express();
 app.use(morgan);
 app.use("/api/v1", apiRouter);
 
-app.listen(3000);
+app.listen(process.env.PORT || 80);
