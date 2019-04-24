@@ -24,7 +24,7 @@ router.get("/timestamp/:date_string", (req, res, next) => {
 
   const isValidDate = !isNaN(date.getTime());
   if (!isValidDate) {
-    res.status(422).json({ error: "Invalid Date" });
+    res.status(422).json({ error: `${date} is an invalid Date` });
     return;
   }
 
