@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.loading {
+  color: goldenrod;
+  opacity: 0.7
+}
+
+.error {
+  color: crimson;
+}
+
+.banner {
+  text-align: left;
+  color: purple;
+}
